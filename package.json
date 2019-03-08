@@ -1,0 +1,20 @@
+{
+  "name": "keycloak-lambda-authorizer",
+  "version": "1.0.0",
+  "description": "Lambda function for verifying JWTs",
+  "main": "index.js",
+  "author": "Lorenzo Pini (https://github.com/Gnafu)",
+  "license": "GPL-3.0+",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Gnafu/keycloak-lambda-authorizer.git"
+  },
+  "dependencies": {
+    "base64url": "^3.0.0",
+    "dotenv": "^2.0.0",
+    "loglevel": "^1.6.1",
+    "node-forge": "^0.7.5",
+    "node-jose": "^1.0.0",
+    "p-any": "^1.1.0"
+  }
+}
